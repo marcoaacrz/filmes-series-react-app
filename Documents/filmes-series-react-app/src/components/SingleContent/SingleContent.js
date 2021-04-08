@@ -24,7 +24,7 @@ const SingleContent = ({
       />
       <b className="title">{title}</b>
       <span className="subTitle">
-        {media_type === "tv" ? "TV Series" : "Movie"}
+        {media_type === "tv" ? "Serie" : "Filme"}
         <span className="subTitle">{date}</span>
       </span>
     </ContentModal>
